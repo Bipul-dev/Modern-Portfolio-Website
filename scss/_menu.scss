@@ -27,7 +27,7 @@
           //Line 2 Hide
           &:nth-child(2){
             opacity: 0;
-        }
+          }
           //Line 3 rotate
           &:nth-child(3){
             transform:rotate(-45deg) translate(7px,-6px);
@@ -37,11 +37,11 @@
 }
 
 //Menu Overlay
-
 .menu {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 100%;
   opacity: 0.9;
   visibility: hidden;
   display: flex;
@@ -63,12 +63,9 @@
     justify-content: center;
     float: left;
     width: 50%; */
-    
-    
     height: 100vh;
     overflow: hidden;
   }
-
   &-nav {  
     flex: 1;
     margin: 0;
@@ -83,7 +80,6 @@
       transform: translate3d(0, 0, 0);
     } 
   }
-
   // Branding Side
    &-branding {
      flex: 1;
@@ -95,8 +91,7 @@
       // Slide in from bottom
       transform: translate3d(0, 0, 0);
     }
- 
-     .portrait {
+   .portrait {
       width: 250px;
       height: 250px;
       background: url('../img/bipul.png');
@@ -105,11 +100,9 @@
       border: solid 3px $secondary-color;
     }
   }
-
   .nav-item{
     transform: translate3d(600px, 0, 0);
     @include easeOut;
-
     &.show {
       // Slide in from right
       transform: translate3d(0, 0, 0);
@@ -134,7 +127,6 @@
       color: $secondary-color;
     }
   }
- 
 }
 
 //Delay each nav item slide by 0.1s
