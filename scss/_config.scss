@@ -15,7 +15,7 @@ $background-opacity:0.9;
             background-size: cover;
 
             &:after{
-            content: ' ';
+            content: '';
             position: absolute;
             top: 0;
             right: 0;
@@ -27,6 +27,16 @@ $background-opacity:0.9;
         }   
     }
 }
+
+//Text color function
+  @function set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return #000;
+    } @else {
+        @return #fff;
+    }
+}  
+
 //Media Query Mixins
 
 @mixin mediaSm{
