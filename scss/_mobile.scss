@@ -1,9 +1,15 @@
 //Wide Screens
 @include mediaXl{
+    .project{
+        grid-template-columns: repeat(4,1fr);
+    }
 
 }
 //Desktop and Laptops
 @include mediaLg{
+    .project{
+        grid-template-columns: repeat(3,1fr);
+    }
 
 }
 //Tablets and Small laptops
@@ -67,11 +73,27 @@
         justify-content: space-between;
         align-items: center;
     } 
+
+    .project{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 //Smart Phones
 @include mediaSm{
 
     main#home .lg-heading{
         margin-top: 10vh;
-    }   
+    } 
+    
+    .project{
+        grid-template-columns:1fr;
+    }
+    main#work{
+        .lg-heading-work{
+            text-align: center;
+        } 
+        .sm-heading{
+            text-align: center;
+        }   
+    }
 }
