@@ -1,4 +1,4 @@
-$primary-color:#444;
+$primary-color:rgb(29, 76, 80);
 $secondary-color:#eece1a;
 $show-home-image:true;
 $show-image:url(../img/background.jpg);
@@ -50,7 +50,7 @@ $background-opacity:0.9;
     }
 }
 @mixin mediaLg{
-    @media screen and(min-width:769px) and (max-width:1170px){
+    @media screen and(min-width:769px)and(max-width:1170px){
         @content;
     }
 }
