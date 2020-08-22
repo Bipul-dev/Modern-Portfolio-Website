@@ -374,9 +374,10 @@ main#contact .box {
 
 @media screen and (max-width: 500px) {
   main#home .blank {
-    margin-bottom: 9vh; }
+    margin-top: 8vh; }
   main#home h1.lg-heading {
     font-size: 4rem;
+    margin-top: 4vh;
     margin-bottom: .5rem; }
   main#home h3.text-secondary {
     font-size: 4rem;
@@ -387,3 +388,51 @@ main#contact .box {
     text-align: center; }
   main#work .sm-heading {
     text-align: center; } }
+
+@media screen and (max-width: 420px) {
+  main#home .blank {
+    margin-top: 5vh; }
+  main#home h1.lg-heading {
+    font-size: 2.8rem;
+    margin-top: 4vh;
+    margin-bottom: .5rem; }
+  main#home h3.text-secondary {
+    font-size: 2.8rem;
+    margin-bottom: .5rem; }
+  main#home h2.sm-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: .5rem .5rem;
+    font-weight: normal; }
+  main#contact {
+    min-height: 84%; }
+    main#contact .lg-heading-contact {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem; }
+    main#contact .sm-heading {
+      font-size: 1.3rem; }
+    main#contact .box {
+      margin-top: 0.6rem; }
+      main#contact .box div {
+        border: 2px solid #fff;
+        padding: .4rem .4rem;
+        margin-bottom: 1rem; }
+        main#contact .box div .text-secondary,
+        main#contact .box div .text-inner {
+          font-size: 1rem; }
+        main#contact .box div:hover {
+          padding: 1rem 1rem; }
+  .wish {
+    font-size: 0.7rem; }
+  main#work .lg-heading-work {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem; }
+  main#work .sm-heading {
+    font-size: 1.3rem; }
+  main#about .lg-heading-about {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem; }
+  main#about .sm-heading {
+    font-size: 1.1rem; }
+  main#about .bio-data p {
+    font-size: 1rem; } }
