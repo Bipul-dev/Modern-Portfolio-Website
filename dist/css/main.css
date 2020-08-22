@@ -390,49 +390,56 @@ main#contact .box {
     text-align: center; } }
 
 @media screen and (max-width: 420px) {
+  main {
+    padding: 2rem; }
   main#home .blank {
-    margin-top: 5vh; }
+    height: 5px;
+    width: 100%;
+    margin-top: 15vh; }
   main#home h1.lg-heading {
-    font-size: 2.8rem;
-    margin-top: 4vh;
-    margin-bottom: .5rem; }
+    font-size: 2.8rem; }
   main#home h3.text-secondary {
-    font-size: 2.8rem;
-    margin-bottom: .5rem; }
+    font-size: 2.8rem; }
   main#home h2.sm-heading {
-    font-size: 1.2rem;
+    font-size: 1rem; }
+  main#about h2.lg-heading-about, main#about h2.text-secondary {
+    font-size: 2.5rem; }
+  main#about h2.sm-heading {
+    font-size: 1rem;
     margin-bottom: 1rem;
-    padding: .5rem .5rem;
-    font-weight: normal; }
-  main#contact {
-    min-height: 84%; }
-    main#contact .lg-heading-contact {
-      font-size: 2.5rem;
+    padding: 0.4rem 0.4rem; }
+  main#about .bio-data {
+    font-size: 1rem; }
+    main#about .bio-data h1 {
+      font-size: 1.8rem; }
+  main#work h2.lg-heading-work, main#work h2.text-secondary {
+    font-size: 2.5rem; }
+  main#work h2.sm-heading {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.4rem; }
+  main#contact h2.lg-heading-contact, main#contact h2.text-secondary {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem; }
+  main#contact h2.sm-heading {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.4rem; }
+  main#contact .box {
+    margin-top: 1rem; }
+    main#contact .box div {
+      border: 2px solid #fff;
+      padding: .6rem .7rem;
       margin-bottom: 1.5rem; }
-    main#contact .sm-heading {
-      font-size: 1.3rem; }
-    main#contact .box {
-      margin-top: 0.6rem; }
-      main#contact .box div {
-        border: 2px solid #fff;
-        padding: .4rem .4rem;
-        margin-bottom: 1rem; }
-        main#contact .box div .text-secondary,
-        main#contact .box div .text-inner {
-          font-size: 1rem; }
-        main#contact .box div:hover {
-          padding: 1rem 1rem; }
+      main#contact .box div .text-secondary,
+      main#contact .box div .text-inner {
+        font-size: 1rem; }
+      main#contact .box div:hover {
+        padding: 1.2rem 1.2rem; }
   .wish {
     font-size: 0.7rem; }
-  main#work .lg-heading-work {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem; }
-  main#work .sm-heading {
-    font-size: 1.3rem; }
-  main#about .lg-heading-about {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem; }
-  main#about .sm-heading {
-    font-size: 1.1rem; }
-  main#about .bio-data p {
-    font-size: 1rem; } }
+  #main-footer {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1rem; } }

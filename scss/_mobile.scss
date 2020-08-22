@@ -128,94 +128,117 @@
 }
 //Xtra Small Mobile
 @include mediaXsm{
-    main#home{
-        .blank{
-            margin-top: 5vh;
-        }
-       h1{
-         &.lg-heading{
-            font-size: 2.8rem;
-            margin-top: 4vh;
-            margin-bottom:.5rem;            
-       } 
-        }
-        h3{
-            &.text-secondary{
-                font-size: 2.8rem;
-                margin-bottom:.5rem;               
-            }
-        } 
-        h2{
-            &.sm-heading{
-                font-size: 1.2rem;
-                margin-bottom: 1rem;
-                padding: .5rem .5rem;
-                font-weight: normal;
-            }
-        }      
+     
+    main{
+        padding: 2rem;
     }
-    
-    main#contact{
-        min-height: 84%;
-        .lg-heading-contact{
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-        }
-        .sm-heading{
-            font-size: 1.3rem;
-        }
-        .box{     
-            margin-top: 0.6rem;
-    
-            div{          
-                border: 2px solid #fff;
-                padding: .4rem .4rem;
-                margin-bottom: 1rem;
-               
-    
-                .text-secondary,
-                .text-inner{
+        main#home{
+            .blank{
+                height: 5px;
+                width: 100%;
+                margin-top: 15vh;
+            }
+            h1{
+                &.lg-heading{
+                    font-size: 2.8rem;
+                }
+            }
+            h3{
+                &.text-secondary{
+                    font-size: 2.8rem;
+                }
+            }
+            h2{
+                &.sm-heading{
                     font-size: 1rem;
                 }
-    
-                &:hover{
-                    padding: 1rem 1rem;
-                }
-            }
-        }
-            
-    }
-    
-        
-    .wish{
-        font-size: 0.7rem;
-        }
-
-        main#work{
-           
-            .lg-heading-work{
-                font-size: 2.5rem;
-                margin-bottom: 1.5rem;
-            }
-            .sm-heading{
-                font-size: 1.3rem;
-            }
+            }            
         }
 
         main#about{
-           
-            .lg-heading-about{
-                font-size: 2.5rem;
-                margin-bottom: 1.5rem;
+            h2{
+                &.lg-heading-about,
+                &.text-secondary{
+                    font-size: 2.5rem;
+                }
+                &.sm-heading{
+                    font-size: 1rem;
+                    margin-bottom: 1rem;
+                    padding: 0.4rem 0.4rem;
+                }
             }
-            .sm-heading{
-                font-size: 1.1rem;
-            }
-            .bio-data p{
+            .bio-data{
+                h1{
+                    font-size: 1.8rem;
+                }
                 font-size: 1rem;
             }
         }
-}
+
+        main#work{
+            h2{
+                &.lg-heading-work,
+                &.text-secondary{
+                    font-size: 2.5rem;
+                }
+                &.sm-heading{
+                    font-size: 1rem;
+                    margin-bottom: 1rem;
+                    padding: 0.4rem 0.4rem;
+                }
+            }
+            
+        }
+
+        main#contact{
+            h2{
+                &.lg-heading-contact,
+                &.text-secondary{
+                    font-size: 2.5rem;
+                    margin-top: 1rem;
+                    margin-bottom: 0.3rem;
+                }
+                &.sm-heading{
+                    font-size: 1rem;
+                    margin-bottom: 1rem;
+                    padding: 0.4rem 0.4rem;
+                }
+            }
+
+            .box{    
+                margin-top: 1rem;
+        
+                div{          
+                    border: 2px solid #fff;
+                    padding: .6rem .7rem;
+                    margin-bottom: 1.5rem;
+            
+                    .text-secondary,
+                    .text-inner{
+                        font-size: 1rem;
+                    }
+        
+                    &:hover{
+                        padding: 1.2rem 1.2rem;
+                    }
+                }
+            }
+            
+        }
+
+        .wish{
+            font-size: 0.7rem;
+            }
+        #main-footer{ 
+            font-size: 0.8rem;
+            text-align: center;
+            padding:1rem;             
+            }
+    }
+    
+    
+        
+
         
         
     
